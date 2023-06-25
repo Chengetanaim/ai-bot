@@ -1,0 +1,101 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Cool", "Okay"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Thank you for shopping at SquareMarket"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Cool", "Okay"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "estore",
+      "patterns": [
+        "How do I create an estore",
+        "How do I open an estore",
+        "Estore account",
+        "I want to create an estore"
+      ],
+      "responses": [
+        "Go to my dashboard, click on create E store then enter details required",
+        "Go to my dashboard, click on create E store, enter details required"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Do you accept Telecash?",
+        "Can I pay with Ecocash?",
+        "Are you cash only?",
+        "How do I pay?"
+
+      ],
+      "responses": [
+        "We accept Ecocash",
+        "Our payment method is by Ecocash"
+      ]
+    },
+    {
+      "tag": "hot deals",
+      "patterns": [
+        "What are hot deals",
+        "How do I upload hot deals?",
+        "How to post a poster on hot deals"
+      ],
+      "responses": [
+        "Go to my dashboard, upload promotions, and select the package that you want",
+        "Go to my dashboard then click on upload promotions and select the package that you want"
+      ]
+    },
+    {
+      "tag": "edit estore",
+      "patterns": [
+        "Edit my estore",
+        "How can I edit estore?",
+        "I want to edit my estore"
+      ],
+      "responses": [
+        "Go to my dashboard, My E store, click on the store that you want to edit",
+        "Go to my dashboard then click on my estore and click on the store that you want to edit"
+      ]
+    },
+    {
+      "tag": "buying",
+      "patterns": [
+        "How are items bought?",
+        "How do I buy?",
+        "How can I buy an item",
+        "How are products bought",
+        "How are products delivered",
+        "I want to buy"
+      ],
+      "responses": [
+        "Contact the respective vendor and arrange on how to how to get the product, payment is done upon delivery"
+      ]
+    }
+  ]
+}
